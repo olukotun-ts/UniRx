@@ -6,6 +6,7 @@ executors:
       version: {type: string}
     docker:
       - image: gableroux/unity3d:<< parameters.version >>
+    resource_class: xlarge
 commands:
   unity_activate:
     parameters:
