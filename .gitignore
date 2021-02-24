@@ -131,3 +131,5 @@ Assets/WSATestCertificate.pfx
 .vs/
 
 Packages
+
+*.DS_Store
